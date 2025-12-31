@@ -1,0 +1,95 @@
+.team-card-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 5px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff20;
+  border-radius: 12px;
+  width: 40%; /* give more room on small screens */
+  min-width: 120px; /* prevent cards from being too narrow */
+  margin: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .team-card-list-item {
+    margin: 20px;
+  }
+}
+
+.team-card-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.team-card-image {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (min-width: 576px) {
+  .team-card-image {
+    width: 60px;
+    height: 60px;
+    margin: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-card-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .team-card-image {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team-card-image {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+.team-name {
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 200;
+  margin-left: 8px;
+  word-wrap: break-word; /* allow long words to break */
+  white-space: normal; /* allow wrapping */
+  flex-grow: 1; /* use remaining space */
+}
+
+@media screen and (max-width: 575px) {
+  .team-name {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-name {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .team-name {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team-name {
+    font-size: 40px;
+  }
+}

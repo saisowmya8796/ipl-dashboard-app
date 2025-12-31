@@ -1,0 +1,50 @@
+.match-card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 30px 20px;
+  margin-bottom: 30px;
+  gap: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #0f172a;
+  min-width: 240px;
+  width: 45%;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-item {
+    min-width: 210px;
+    width: 30%;
+  }
+}
+
+.team-logo {
+  width: 75px;
+  height: 75px;
+}
+
+.team-name {
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.result {
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.status {
+  text-align: center;
+  font-size: 22px;
+}
+
+.status-won {
+  color: #18ed66;
+}
+
+.status-lost {
+  color: #e31a1a;
+}

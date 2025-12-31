@@ -1,0 +1,23 @@
+.chart-container {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+}
+
+/* Remove focus outline on pie slices */
+.recharts-sector:focus {
+  outline: none;
+}
+
+.recharts-layer:focus {
+  outline: none;
+}
+
+svg:focus {
+  outline: none;
+}
+
+/* Prevent cursor change on slices */
+.recharts-sector {
+  cursor: default;
+}

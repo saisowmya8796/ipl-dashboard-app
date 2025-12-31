@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.team-matches-container {
+  min-height: 100vh;
+  font-family: 'Bree Serif';
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.RCB {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+}
+
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, #0f172a);
+}
+
+.KXP {
+  background-image: linear-gradient(to bottom, #d91c1f, #0f172a);
+}
+
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #ffffff33);
+}
+
+.RR {
+  background-image: linear-gradient(to bottom, #da237b, #0f172a);
+}
+
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #0f172a);
+}
+
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #0f172a);
+}
+
+.DC {
+  background-image: linear-gradient(to bottom, #4f5db0, #0f172a);
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.team-banner-image {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.recent-matches-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+  width: 100%;
+}
+
+.back-button {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  align-self: flex-end;
+  background-color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

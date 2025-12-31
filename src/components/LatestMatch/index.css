@@ -1,0 +1,182 @@
+/* Write your CSS here */
+.latest-match-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: 'Bree Serif';
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.latest-match-heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.latest-match-card {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  background-color: #0f172a;
+  border-radius: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+.first-half {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .first-half {
+    width: 65%;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+}
+
+.match-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-details {
+    justify-content: center;
+    width: 220px;
+    flex-grow: 1;
+  }
+}
+
+.competing-team {
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team {
+    font-size: 26px;
+  }
+}
+
+.date {
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .date {
+    font-size: 26px;
+  }
+}
+
+.venue {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .venue {
+    font-size: 18px;
+  }
+}
+
+.latest-result {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-result {
+    font-size: 18px;
+  }
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-container {
+    align-items: center;
+    flex-grow: 1;
+  }
+}
+
+.competing-team-logo {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team-logo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .competing-team-logo {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.horizontal-line {
+  display: block;
+  border: 2px solid #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .horizontal-line {
+    display: none;
+  }
+}
+
+.innings-details {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 10px;
+  width: 300px;
+  flex-grow: 1;
+}
+
+.innings-title {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .innings-title {
+    font-size: 24px;
+    text-align: right;
+  }
+}
+
+.innings-value {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .innings-value {
+    font-size: 18px;
+    text-align: right;
+  }
+}
